@@ -9253,24 +9253,24 @@ footer p {
   background-color: #f3f3f3;
 }
 
-.nav-store {
+.navbar-store {
   padding-top: 15px;
 }
 @media (max-width: 991.98px) {
-  .nav-store {
+  .navbar-store {
     background-color: #fff !important;
   }
 }
 @media (min-width: 992px) {
-  .nav-store .nav-item .nav-link {
+  .navbar-store .nav-item .nav-link {
     margin-left: 10px;
     margin-right: 10px;
   }
 }
-.nav-store .profile-picture {
+.navbar-store .profile-picture {
   max-height: 45px;
 }
-.nav-store .card-badge {
+.navbar-store .card-badge {
   display: inline-block;
   min-width: 2em;
   padding: 0.3em;
@@ -9281,7 +9281,7 @@ footer p {
   color: #fefefe;
   margin-left: -10px;
 }
-.nav-store .navbar-fixed-top.scrolled {
+.navbar-store .navbar-fixed-top.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
