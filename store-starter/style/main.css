@@ -9237,8 +9237,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.page_content {
-  margin-top: 111px;
+.page-content {
+  margin-top: 100px;
 }
 
 footer {
@@ -9249,7 +9249,7 @@ footer p {
   color: #979797;
 }
 
-.form_control {
+.form-control {
   background-color: #f3f3f3;
 }
 
@@ -9270,10 +9270,10 @@ footer p {
 .navbar-store .profile-picture {
   max-height: 45px;
 }
-.navbar-store .card-badge {
+.navbar-store .cart-badge {
   display: inline-block;
-  min-width: 2em;
-  padding: 0.3em;
+  min-width: 2em; /* em unit */
+  padding: 0.3em; /* em unit */
   border-radius: 50%;
   font-size: 10px;
   text-align: center;
@@ -9281,18 +9281,19 @@ footer p {
   color: #fefefe;
   margin-left: -10px;
 }
-.navbar-store .navbar-fixed-top.scrolled {
+
+.navbar-fixed-top.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
 
-.pages-home h5 {
+.page-home h5 {
   font-weight: 300;
   margin-bottom: 15px;
 }
-.pages-home .store-trend-categories {
+.page-home .store-trend-categories {
   margin-top: 30px;
 }
-.pages-home .store-new-product {
+.page-home .store-new-products {
   margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */

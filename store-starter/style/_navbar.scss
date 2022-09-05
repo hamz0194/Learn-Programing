@@ -13,14 +13,15 @@
       }
     }
   }
+
   .profile-picture {
     max-height: 45px;
   }
 
-  .card-badge {
+  .cart-badge {
     display: inline-block;
-    min-width: 2em;
-    padding: 0.3em;
+    min-width: 2em; /* em unit */
+    padding: 0.3em; /* em unit */
     border-radius: 50%;
     font-size: 10px;
     text-align: center;
@@ -28,9 +29,9 @@
     color: #fefefe;
     margin-left: -10px;
   }
+}
 
-  .navbar-fixed-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }
